@@ -96,7 +96,7 @@ body {
 input[type="search"] {
     width: 800px;
     height: 30px;
-    background-color: var(--bgrnd-color1);
+    background-color: var(--content-bg-color);
     border-radius: 50px;
     border: none;
 }
