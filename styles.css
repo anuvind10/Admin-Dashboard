@@ -56,7 +56,7 @@ body {
     background-color: var(--bgrnd-color1);
     border-top: 1px solid #797979;
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 4fr 1fr;
     padding: 30px 30px 60px 15px;
 }
 
@@ -175,7 +175,7 @@ button {
 }
 
 .project {
-    height: 200px;
+    height: 23s0px;
     background-color: var(--content-bg-color);
     border-left: 5px solid var(--base-color);
     border-radius: 5px;
@@ -206,8 +206,7 @@ button {
     grid-template-rows: 1fr 4fr 1fr 3fr;
 }
 
-.announcements-div,
-.trending-div {
+.announcements-div {
     background-color: var(--content-bg-color);
     border-radius: 5px;
     display: grid;
@@ -228,4 +227,24 @@ button {
 
 hr {
     border: 1px solid #383838;
+}
+
+.trending-div {
+    background-color: var(--content-bg-color);
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    align-items: center;
+    padding-left: 30px;
+}
+
+.trending {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.trending-text {
+    font-size: 12px;
 }
